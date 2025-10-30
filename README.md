@@ -4,8 +4,8 @@ A full-stack application that allows users to swap calendar time slots with each
 
 ## 🚀 Live Demo
 
-- **Frontend:** [Your Vercel URL]
-- **Backend:** [Your Render URL]
+- **Frontend:** [[VERCEL_URL](https://slotswapper.vercel.app/)]
+- **Backend:** [[RENDER_URL](https://slotswapper-8n0w.onrender.com)]
 
 ## 📋 Table of Contents
 
@@ -109,7 +109,7 @@ SwapRequest
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/slotswapper.git
+git clone https://github.com/yagnesh-pujara/slotswapper.git
 cd slotswapper
 ```
 
@@ -128,8 +128,7 @@ cp .env.example .env
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/slotswapper
-# or MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/slotswapper
+MONGODB_URI=MONGO_DB_URL
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 NODE_ENV=development
 FRONTEND_URL=http://localhost:5173
